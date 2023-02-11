@@ -62,4 +62,51 @@ body {
   color: gray;
 }
 
+@media screen and (max-width: 375px) {
+  body {
+    background: url(./compelmentos/fondo.jpg) no-repeat;
+  }
+  .titulo_principal {
+    padding-left: 0px;
+    color: white;
+    font-weight: bold;
+  }
+  .container {
+    display: contents;
+    justify-content: center;
+  }
+  .container_form {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 20px 20px;
+    margin-bottom: 50px;
+  }
+  /*estilos de nombres y apellidos*/
+  .container_nombres {
+    display: contents;
+    margin: 10px;
+  }
+  /*estilos de fecha de nacimiento y direccion*/
+  .container-date-and-address {
+    display: contents;
+  }
+  /*estilos de boton*/
+  .container_boton {
+    display: contents;
+  }
+  .boton {
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    margin: 30px 0px 0px 0px;
+  }
+  .input {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 10px;
+    border: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
