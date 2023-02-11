@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: url(/compelmentos/fondo.jpg) no-repeat;
+    background: url(./compelmentos/fondo.jpg) no-repeat;
 }
 .titulo_principal{
     padding: 50px;
@@ -47,4 +47,7 @@ body{
     padding: 5px;
     margin: 0px 10px;
     border: none;
+}
+.input_fecha{
+    color: gray;
 }
