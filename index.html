@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UN FORMULARIO DINÁMICO</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <h1 class="titulo_principal">UN FORMULARIO DINÁMICO</h1>
+    </header>
+
+    <!--main-->
+    <main>
+        <section class="container">
+                <form class="container_form" action="">
+                    <!--nombres-->
+                    <div>
+                        <label  for="nombres">Nombres</label>
+                    </div>
+                    <div class="container_nombres">
+                        <div>
+                            <input class="input" type="text" name="nombres" id="" placeholder="Primer nombre" required>
+                        </div>
+                        <div>
+                            <input class="input" type="text" name="nombres" id="" placeholder="Segundo nombre" required>
+                        </div>
+                    </div>
+                    <!--apellidos-->
+                    <div>
+                        <label  for="nombres">Apellidos</label>
+                    </div>
+                    <div class="container_nombres">
+                        <div>
+                            <input class="input" type="text" name="nombres" id="" placeholder="Primer apellido" required>
+                        </div>
+                        <div>
+                            <input class="input" type="text" name="nombres" id="" placeholder="Segundo apellido" required>
+                        </div>
+                    </div>
+                    <!--contenedor fecha de nacimiento y direcciòn-->
+                    <div class="container-date-and-address">
+                        <!--fecha de naciemiento-->
+                        <div>
+                            <div>
+                                <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                            </div>
+                            <div class="container_nombres">
+                                <input class="input" type="date" name="fecha_nacimiento" id="" placeholder="" required style="color: gray;">
+                            </div>
+                        </div>
+                        <!--direcciòn-->
+                        <div>
+                            <div>
+                                <label for="direcciòn">Dirección</label>
+                            </div>
+                            <div class="container_nombres">
+                                <input class="input" type="text" name="direcciòn" id="" placeholder="Ingrese su dirección" required>
+                            </div>
+                        </div>
+                    </div>
+                    <!--boton-->
+                    <div class="container_boton">
+                        <button class="boton">Enviar</button>
+                    </div>
+                </form>
+
+            <!--
+                1. Nombres
+                2. Apellidos
+                3. Fecha de nacimiento
+                4. Dirección
+                5. Botón Enviar
+            -->
+        </section>
+    </main>
+
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

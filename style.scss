@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/compelmentos/fondo.jpg) no-repeat;
+}
+.titulo_principal{
+    padding: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container_form{
+    color: white;
+    font-weight:bold;
+    background-color:rgba(0, 0, 0, 35%);
+    padding: 20px 50px;
+}
+/*estilos de nombres y apellidos*/
+.container_nombres{
+    display: flex;
+    margin: 10px;
+}
+/*estilos de fecha de nacimiento y direccion*/
+.container-date-and-address{
+    display: flex;
+    justify-content: space-between;
+}
+/*estilos de boton*/
+.container_boton{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    margin:30px 0px 0px 0px;
+}
+.input{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px 10px;
+    border: none;
+}
